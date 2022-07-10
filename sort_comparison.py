@@ -61,7 +61,7 @@ def bubbleSort(A):
     return A
 
 def main ():
-    n= [i for i in range(100, 5001, 100)]
+    n= [i for i in range(100, 5001, 1000)]
 
     print("N\tMerge\tInsert\tBubble")
     for i in n:
